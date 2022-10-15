@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: qopx;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    /* background-color: rgb(231 215 215); */
+    padding: 37px;
+    margin: auto;
+}
+.btn{
+    color: rgb(253, 251, 255);
+    background-color: rgb(83, 143, 196);
+    border-radius: 10px;
+    font-size: 20px;
+    background:black;
+    margin: 20px;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 30px;
+}
+input,textarea{
+    width: 30%;
+    display: block;
+    margin: 13px;
+    padding: 10px;
+    border:2px,solid,black;
+    border-radius: 9px;
+}
+element.style {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.bg{
+    width:100%;
+    z-index:-1;
+    position:absolute;
+    opacity:0.7;
+}
